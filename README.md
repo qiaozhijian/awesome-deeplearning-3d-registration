@@ -1,8 +1,11 @@
-﻿## LIDAR Localization
+﻿# awesome-deeplearning-lidar-odometry
 
 A curated list of papers about point cloud registration inspired by [awesome-point-cloud-registration](https://github.com/weiweisun2018/awesome-point-clouds-registration)
 
 You will be very welcome to make Pull Request if you find the awesome paper/code/dataset, and contribute to this reseach community :smile:
+
+## LIDAR Localization
+
 | Models   |Date| Publication| Paper | Code |
 |----------|----|------------|------|---|
 | Gil Elba et al. | 2017 | CVPR | [3D Point Cloud Registration for Localization Using a Deep Neural Network Auto-Encoder](https://ieeexplore.ieee.org/document/8099748) | [python](https://github.com/gilbaz/LORAX) |
@@ -41,4 +44,5 @@ You will be very welcome to make Pull Request if you find the awesome paper/code
 | Federico  et al. | 2020 | IROS | [Segmentation-Based 4D Registration of Plants Point Clouds for Phenotyping](https://www.ipb.uni-bonn.de/wp-content/papercite-data/pdf/magistri2020iros.pdf) | None |
 | PRNet | 2020 | NIPS | [PRNet: Self-Supervised Learning for Partial-to-Partial Registration](https://arxiv.org/abs/1910.12240) | [Python](https://github.com/WangYueFt/prnet) |
 | IDAM | 2020 | ECCV | [Iterative Distance-Aware Similarity Matrix Convolution with Mutual-Supervised Point Elimination for Efficient Point Cloud Registration](https://www.ecva.net/papers/eccv_2020/papers_ECCV/papers/123690375.pdf) | [Python](https://github.com/jiahaowork/idam) |
-| GraphTER| 2020 | arXiv | [GraphTER: Unsupervised Learning of Graph Transformation Equivariant Representations via Auto-Encoding Node-wise Transformations](https://arxiv.org/abs/1911.08142) | [Python](https://github.com/gyshgx868/graph-ter) |
+| GraphTER | 2020 | arXiv | [GraphTER: Unsupervised Learning of Graph Transformation Equivariant Representations via Auto-Encoding Node-wise Transformations](https://arxiv.org/abs/1911.08142) | [Python](https://github.com/gyshgx868/graph-ter) |
+| CMU | 2020 | arXiv | [Correspondence Matrices are Underrated](https://arxiv.org/pdf/2010.16085.pdf) | [Pytorch](https://github.com/tzodge/PCR-CMU) |
