@@ -1,11 +1,10 @@
-﻿# awesome-deeplearning-lidar-odometry
+﻿# awesome-deeplearning-3d-registration
 
 A curated list of papers about point cloud registration inspired by [awesome-point-cloud-registration](https://github.com/weiweisun2018/awesome-point-clouds-registration)
 
-You will be very welcome to make Pull Request if you find the awesome paper/code/dataset, and contribute to this reseach community :smile:
+You will be very welcome to make Pull Request to current repository or [this](https://github.com/weiweisun2018/awesome-point-clouds-registration) (Recommanded) if you find the awesome paper/code/dataset.
 
-## LIDAR Localization
-
+## Localization in Autonomous Vehicle
 | Models   |Date| Publication| Paper | Code |
 |----------|----|------------|------|---|
 | Gil Elba et al. | 2017 | CVPR | [3D Point Cloud Registration for Localization Using a Deep Neural Network Auto-Encoder](https://ieeexplore.ieee.org/document/8099748) | [python](https://github.com/gilbaz/LORAX) |
@@ -34,6 +33,8 @@ You will be very welcome to make Pull Request if you find the awesome paper/code
 | PointNetLK | 2019 | CVPR | [PointNetLK: Robust & Efficient Point Cloud Registration using PointNet](https://arxiv.org/pdf/1903.05711.pdf) | [Python](https://github.com/hmgoforth/PointNetLK) |
 | Deng et al.  | 2019 | CVPR | [3D Local Features for Direct Pairwise Registration](https://openaccess.thecvf.com/content_CVPR_2019/html/Deng_3D_Local_Features_for_Direct_Pairwise_Registration_CVPR_2019_paper.html) | None |
 | Lan et al.  | 2019 | CVPR | [Robust Point Cloud Based Reconstruction of Large-Scale Outdoor Scenes](https://arxiv.org/abs/1905.09634) | [Python/C++](https://github.com/ziquan111/RobustPCLReconstruction) |
+| Federico  et al. | 2020 | IROS | [Segmentation-Based 4D Registration of Plants Point Clouds for Phenotyping](https://www.ipb.uni-bonn.de/wp-content/papercite-data/pdf/magistri2020iros.pdf) | None |
+| VCR-Net | 2020 | IROS | [End-to-End  3D  Point  Cloud  Learning  for  Registration  Task  UsingVirtual  Correspondences](https://arxiv.org/pdf/2011.14579.pdf) | [Pytorch](https://github.com/qiaozhijian/VCR-Net) |
 | D3Feat | 2020 | CVPR | [D3feat: Joint learning of dense detection and description of 3d local features](https://arxiv.org/abs/2003.03164) | [Python/C++](https://github.com/XuyangBai/D3Feat/) |
 | GraphTER | 2020 | CVPR | [GraphTER: Unsupervised Learning of Graph Transformation Equivariant Representations via Auto-Encoding Node-wise Transformations](https://arxiv.org/pdf/1911.08142.pdf) | [Python](https://github.com/gyshgx868/graph-ter) |
 | Gojcic et al.  | 2020 | CVPR | [Learning multiview 3D point cloud registration](https://arxiv.org/abs/2001.05119) | [Python](https://github.com/zgojcic/3D_multiview_reg) |
@@ -41,8 +42,9 @@ You will be very welcome to make Pull Request if you find the awesome paper/code
 | 3DRegNet | 2020 | CVPR | [3DRegNet: A Deep Neural Network for 3D Point Registration](https://arxiv.org/pdf/1904.01701.pdf) | [Python](https://github.com/3DVisionISR/3DRegNet) |
 | D3Feat | 2020 | CVPR | [D3Feat: Joint Learning of Dense Detection and Description of 3D Local Features](https://arxiv.org/abs/2003.03164) | [Python/C++](https://github.com/XuyangBai/D3Feat/) |
 | Deep Global Registration | 2020 | CVPR | [Deep Global Registration](http://vladlen.info/publications/deep-global-registration/) | [Python](https://github.com/chrischoy/DeepGlobalRegistration) |
-| Federico  et al. | 2020 | IROS | [Segmentation-Based 4D Registration of Plants Point Clouds for Phenotyping](https://www.ipb.uni-bonn.de/wp-content/papercite-data/pdf/magistri2020iros.pdf) | None |
 | PRNet | 2020 | NIPS | [PRNet: Self-Supervised Learning for Partial-to-Partial Registration](https://arxiv.org/abs/1910.12240) | [Python](https://github.com/WangYueFt/prnet) |
 | IDAM | 2020 | ECCV | [Iterative Distance-Aware Similarity Matrix Convolution with Mutual-Supervised Point Elimination for Efficient Point Cloud Registration](https://www.ecva.net/papers/eccv_2020/papers_ECCV/papers/123690375.pdf) | [Python](https://github.com/jiahaowork/idam) |
 | GraphTER | 2020 | arXiv | [GraphTER: Unsupervised Learning of Graph Transformation Equivariant Representations via Auto-Encoding Node-wise Transformations](https://arxiv.org/abs/1911.08142) | [Python](https://github.com/gyshgx868/graph-ter) |
 | CMU | 2020 | arXiv | [Correspondence Matrices are Underrated](https://arxiv.org/pdf/2010.16085.pdf) | [Pytorch](https://github.com/tzodge/PCR-CMU) |
+
+
